@@ -1,9 +1,4 @@
-.projects-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
+.projects__title {
     margin-bottom: 50px;
   }
   
@@ -16,11 +11,11 @@
     gap: 30px;
   }
   
-  .projects-item {
+  .projects-list__item {
     position: relative;
     flex-basis: calc(100% - 60px / 3);
   }
-  .projects-item-text {
+  .projects-list__text {
     position: absolute;
     display: flex;
     align-items: center;

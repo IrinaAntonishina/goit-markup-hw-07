@@ -1,6 +1,10 @@
 @import "./base/common";
 @import "./base/reset";
 
+@import "./layouts/_logo";
+@import "./layouts/button";
+@import "./layouts/title";
+
 @import "./components/header";
 @import "./components/hero";
 @import "./components/feature";

@@ -17,7 +17,7 @@
     background-size: cover;
   }
   
-  .hero-title {
+  .hero__title {
     max-width: 696px;
     font-weight: 900;
     font-size: 44px;
@@ -29,26 +29,11 @@
     margin: 0px auto 30px auto;
   }
   
-  .btn {
+  .hero__button {
     display: inline-block;
     padding: 10px 32px;
     border-radius: 4px;
     min-width: 216px;
-    border: 0px;
-    text-align: center;
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    color: var(--text-white);
-    background-color: var(--color-accent);
-    cursor: pointer;
-    transition: var(--transition-background-color);
-    &:hover,
-    &:focus {
-    background-color: var(--color-button);
-  }
   }
   
   

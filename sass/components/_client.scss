@@ -2,6 +2,9 @@
     padding-top: 94px;
     padding-bottom: 94px;
   }
+  .client__title {
+    margin-bottom: 50px;
+  }
   
   .client-list {
     display: flex;
@@ -9,11 +12,11 @@
     justify-content: center;
   }
   
-  .client-item {
+  .client-list__link {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #afb1b8;
+    border: 1px solid var(--color-icon);
     border-radius: 4px;
     width: 170px;
     height: 92px;
@@ -25,10 +28,10 @@
   }
   }
   
-  .client-group {
-    fill: #afb1b8;
-    .client-item:hover &,
-    .client-item:focus & {
+  .client-list__link {
+    fill: var(--color-icon);
+    .client-list__icon:hover &,
+    .client-list__icon:focus & {
     fill: var(--color-accent);
   }
   }
